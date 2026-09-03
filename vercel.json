@@ -3,19 +3,19 @@
   "rewrites": [
     {
       "source": "/api",
-      "destination": "/api/index"
+      "destination": "/api/index.js"
     },
     {
       "source": "/api/(.*)",
-      "destination": "/api/index"
+      "destination": "/api/index.js"
     },
     {
       "source": "/robots.txt",
-      "destination": "/api/index"
+      "destination": "/api/index.js"
     },
     {
       "source": "/sitemap.xml",
-      "destination": "/api/index"
+      "destination": "/api/index.js"
     },
     {
       "source": "/(.*)",
