@@ -260,9 +260,10 @@ apiRouter.get('/leads/recent', (req, res) => {
   });
 });
 
-// Mount the apiRouter at BOTH '/api' and '/'
-// This ensures that whether Vercel rewrites to '/api/leads' or strips '/api' to '/leads', both succeed!
+// Mount the apiRouter at '/api', '/api/index', and '/'
+// This ensures that whether Vercel rewrites to '/api/leads', '/api/index/leads', or strips to '/leads', all succeed!
 app.use('/api', apiRouter);
+app.use('/api/index', apiRouter);
 app.use('/', apiRouter);
 
 // Helper to determine the application's base URL

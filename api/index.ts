@@ -1,5 +1,4 @@
 import { app } from '../server/app';
 
-export default function handler(req: any, res: any) {
-  return app(req, res);
-}
+// Export Express app directly as the default export for Vercel's Express bridge
+export default app;
