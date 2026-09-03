@@ -1,0 +1,7 @@
+{
+  "name": "Shiftify Packers & Movers",
+  "description": "Professional Packers and Movers in Bangalore offering house shifting, office relocation, vehicle transport, and pan-India moving services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
