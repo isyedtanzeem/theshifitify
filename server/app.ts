@@ -1,8 +1,8 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import nodemailer from 'nodemailer';
-import { storedLeads, seedInitialAdminData, generateLeadId, LeadRecord } from './adminService';
-import { adminRouter } from './adminRoutes';
+import { storedLeads, seedInitialAdminData, generateLeadId, type LeadRecord } from './adminService.ts';
+import { adminRouter } from './adminRoutes.ts';
 
 dotenv.config();
 

@@ -21,7 +21,7 @@ import {
   type InvoiceRecord,
   type InvoiceStatus,
   type PaymentStatus,
-} from './adminService';
+} from './adminService.ts';
 
 export const adminRouter = Router();
 
